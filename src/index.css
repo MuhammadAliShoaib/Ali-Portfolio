@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #d47d41;
+  --color-primary: rgb(27,31,35);
   --color-secondary: #012169;
   --color-primary-light: rgba(212, 125, 65, 0.1);
 }
@@ -26,6 +26,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 
@@ -34,6 +35,13 @@
   font-weight: 400;
   font-style: normal;
   font-size:xx-large;
+}
+
+.boxes {
+  background-color: rgb(27,31,35);
+  border-radius:10px;
+  padding: 0.5rem;
+  margin-top: 15px;
 }
 
 
